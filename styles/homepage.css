@@ -9,7 +9,7 @@ header{
     align-items:center;
     background-color: purple; 
     color: white; 
-    border: 2px black solid; 
+    border-radius: 25px;
 }
 
 header img{
@@ -39,8 +39,8 @@ footer{
     align-items: center;
     background-color: purple; 
     color: white; 
-    border: 2px black solid; 
     text-align: center; 
     padding: 1rem; 
+    border-radius: 25px;
 
 }
