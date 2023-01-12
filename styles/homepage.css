@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+body {
+    font-family: 'Mukta', sans-serif
+}
+
+header{
+    display:flex;
+    align-items:center;
+    background-color: purple; 
+    color: white; 
+    border: 2px black solid; 
+}
+
+header img{
+    margin: 1rem;
+    height: auto; 
+    width: 20%; 
+}
+
+header div:nth-child(2) {
+    width: 100%;
+}
+
+#content{
+    margin: 0 auto; 
+}
+
+main h2{
+    text-align: center; 
+}
+
+footer{
+    align-items: center;
+    background-color: purple; 
+    color: white; 
+    border: 2px black solid; 
+    text-align: center; 
+    padding: 1rem; 
+
+}
