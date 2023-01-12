@@ -13,9 +13,9 @@ header{
 }
 
 header img{
-    margin: 1rem;
+    margin: 1rem; 
     height: auto; 
-    width: 20%; 
+    width: 200px; 
 }
 
 header div:nth-child(2) {
@@ -24,6 +24,11 @@ header div:nth-child(2) {
 
 #content{
     margin: 0 auto; 
+    width: 1000px; 
+}
+
+h1 {
+    text-align: center; 
 }
 
 main h2{
