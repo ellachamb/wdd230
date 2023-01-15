@@ -7,10 +7,16 @@ body {
 header{
     display:flex;
     align-items:center;
-    background-color: rgb(43, 61, 43); 
+    background-color: gray;
     color: white; 
     border-radius: 25px;
     text-align: center; 
+}
+
+ section {
+    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: 1fr; 
 }
 
 .section {
@@ -19,22 +25,21 @@ header{
     color: black; 
     padding: 1rem; 
     width: 95%;
-    margin-bottom: 10px;
+    margin-top: 15px; 
+    margin-bottom: 15px; 
 }
 
 img {
     width: 100%; 
 }
 
-.title {
+h3 {
     align-items: center;
     background-color: navy; 
     color: white; 
     text-align: center; 
     padding: 1rem; 
-    width: 95%; 
-    margin-top: 10px; 
-    border-radius: 25px 25px 0px 0px; 
+    margin-top: 0px; 
 }
 
 div {
