@@ -7,7 +7,7 @@ body {
 header{
     display:flex;
     align-items:center;
-    background-color: gray;
+    background-color: darkgoldenrod;
     color: white; 
     border-radius: 25px;
     text-align: center; 
