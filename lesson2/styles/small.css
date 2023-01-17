@@ -7,7 +7,7 @@ body {
 header{
     display:flex;
     align-items:center;
-    background-color: darkgoldenrod;
+    background-color: darkgreen;
     color: white; 
     border-radius: 25px;
     text-align: center; 
@@ -53,7 +53,7 @@ div {
 
 footer{
     align-items: center;
-    background-color: rgb(144, 117, 50); 
+    background-color: darkgreen; 
     color: white; 
     text-align: center; 
     padding: 1rem; 
