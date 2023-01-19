@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lora&family=Mukta&display=swap');
 
 body {
     font-family: 'Mukta', sans-serif;
@@ -40,20 +40,20 @@ nav ul {
 
 
 nav ul li:hover {
-    background-color: palevioletred;
+    background-color: rgb(214, 214, 214);
 }
 
 nav ul li {
     border: 1px solid black;
     text-align: center;
-    min-width: 210px; 
+    width: 100%; 
 }
 
 nav a {
     display: block;
     margin: 1rem; 
     text-decoration: none;
-    color:black; 
+    color: black; 
 }
 
 h1 {
