@@ -48,13 +48,15 @@ header img{
 .flex {
     display: flex; 
     align-items: center;
+    justify-content: space-between;
 }
 
 #date {
     align-items: center;
     text-align: center; 
     padding: 1rem; 
-    background-color: lightgray;
+    background-color: #4E4F50;
+    color: white; 
 }
 
 .join {
@@ -63,6 +65,7 @@ header img{
 
 footer {
     text-align: center; 
+    justify-content: space-between;
 }
 
 footer img {
@@ -75,7 +78,9 @@ header, footer {
     max-width: 540px;
     margin:0 auto;
     padding: 1rem; 
-    background-color: lightblue;
+    background-color: #647C90;
+    color: white; 
+    box-shadow: 5px 10px 8px gray;
 }
 
 nav ul {
@@ -92,7 +97,6 @@ nav ul li:hover {
 }
 
 nav ul li {
-    border: 1px solid black;
     text-align: center;
     width: 100%; 
 }
@@ -105,7 +109,7 @@ nav a {
 }
 
 .active {
-    background-color: pink; 
+    background-color: ivory; 
 }
 
 #navbar {
@@ -137,7 +141,7 @@ nav a {
 #ham-menu {
     font-size: 5rem;
     border: 0; 
-    color: navy; 
+    color: #647C90; 
     background-color: lightblue; 
 }
 
