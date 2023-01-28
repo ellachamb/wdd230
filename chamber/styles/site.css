@@ -48,6 +48,10 @@ header img{
     background-color: lightgray;
 }
 
+.join {
+    display:none; 
+}
+
 footer {
     text-align: center; 
 }
@@ -131,6 +135,10 @@ nav a {
 /* Media Query Updates for middle widths */ 
 
 @media screen and (min-width: 840px) {
+
+    body {
+        width: 900px; 
+    }
     nav ul {
         flex-direction: row;
     }
