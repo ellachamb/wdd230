@@ -4,34 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chamber of Commerce Website Winter 2023">
-    <title>Chamber of Commerce Website</title>
+    <meta name="description" content="For WDD 230 Winter 2023 for Ella Chamberlain">
+    <title>Chamber of Commerce Site</title>
     <link rel="stylesheet" href="./styles/site.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <script src="./scripts/site.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Chamber of Commerce Site Plan</h1>
-        <h2>Ella Chamberlain</h2>
-</header>
-<nav>
-    <button id="ham-menu">
-        <span id ="menu-close">&equiv;</span>
-        <span id = "menu-option">x</span>
-    </button>
-    <ul id = "navbar">
-        <li class="active"><a href="index.html">Home Page</a></li>
-        <li><a href="./target-audience.html">Target Audience</a></li>
-        <li><a href="./design.html">Design</a></li>
-    </ul>
-</nav>    
-<main class="home-main">
-    <h1>Main Plan</h1>
-    <h2>Name: Cedar Hills Chamber of Commerce</h2>
-    <h2>Site Purpose:</h2>
-</main>
+        <div class="flex">
+        <img src="./images/logo.png" alt="logo">
+        <div>
+        <h1>Cedar Hills</h1>
+        <h2>Chamber of Commerce</h2>
+        </div>
+        <nav>
+            <button id="ham-menu">
+                <span id ="menu-close">&equiv;</span>
+                <span id = "menu-open">x</span>
+            </button>
+            <ul id = "navbar">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="./target-audience.html">Discover</a></li>
+                <li><a href="./design.html">Directory</a></li>
+                <li><a href="./design.html">Join</a></li>
+                <li><a href="./design.html">Contact</a></li>
+            </ul>
+        </nav>
+        <img id="facebook" src="./images/facebook.png" alt="logo">
+        <img id = "twitter" src="./images/twitter.png" alt="logo">
+        </div>
+        <div id="date">
+            <span id = 'current'></span> 
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <p>Hero with site name and call to action</p>
+            <p>#647C90, #E2DED0, #4E4F50, #74670</p>
+        </div>
+        <div class="event">
+            <p>Event</p>
+        </div>
+        <div class="weather">
+            <p>Weather</p>
+        </div>
+        <div class="news">
+            <p>News Release</p>
+        </div>
+        <div class="spotlight">
+        <div class="spotlight1">
+            <p>Spotlight 1</p>
+        </div>
+        <div class="spotlight2">
+            <p>Spotlight 2</p>
+        </div>
+        </div>
+    </main>
 <footer>
+    <img src="./images/logo.png" alt="logo">
+    <h3>Cedar Hills Chamber of Commerce</h3>
+    <p>145 Block Bank Road</p>
+    <p>Cedar Hills, UT 84062</p>
+    <p>info@cedarhills.org</p>
+    <p>801-205-4985</p>
+    <p>Location Map</p>
     <p>&copy; <span id = 'currentYear'></span> | Ella Chamberlain | Rexburg, ID</p>
     <p>Last Updated: <span id='lastModified'></span></p>
 </footer>
