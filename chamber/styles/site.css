@@ -141,8 +141,9 @@ nav a {
 #ham-menu {
     font-size: 5rem;
     border: 0; 
-    color: #647C90; 
-    background-color: lightblue; 
+    color: black; 
+    background-color: #647C90; 
+    float: right;  
 }
 
 /* Media Query Updates for middle widths */ 
@@ -178,20 +179,6 @@ nav a {
         grid-column: 3; 
         grid-row: 5; 
     }
-    nav ul {
-        flex-direction: row;
-    }
-    nav ul li {
-        text-align: center; 
-    }
-
-    #navbar {
-        display: flex; 
-    }
-
-    #ham-menu {
-        display: none; 
-    }
 
     .spotlight {
         display: grid; 
@@ -218,6 +205,21 @@ nav a {
 @media screen and (min-width: 1100px) {
     header, footer, main {
         max-width: 1200px;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+    nav ul li {
+        text-align: center; 
+    }
+
+    #navbar {
+        display: flex; 
+    }
+
+    #ham-menu {
+        display: none; 
     }
 
     #content {
