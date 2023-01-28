@@ -66,6 +66,13 @@ header img{
 footer {
     text-align: center; 
     justify-content: space-between;
+    font-family: 'Lora', sans-serif; 
+    max-width: 540px;
+    margin:0 auto;
+    padding: 1rem; 
+    background-color: #E2DED0;
+    color: black; 
+    box-shadow: 5px 10px 8px gray;
 }
 
 footer img {
@@ -73,7 +80,7 @@ footer img {
     width: 100px;
 }
 
-header, footer {
+header {
     font-family: 'Lora', sans-serif; 
     max-width: 540px;
     margin:0 auto;
