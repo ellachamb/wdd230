@@ -153,6 +153,19 @@ nav a {
     float: right;  
 }
 
+#meet-greet{
+    display: none; 
+}
+
+#meet-greet.active {
+    background-color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid black;
+    display: block;
+    padding: .5rem; 
+}
+
 /* Media Query Updates for middle widths */ 
 
 @media screen and (min-width: 640px) {
