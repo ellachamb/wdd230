@@ -46,7 +46,11 @@
     <main>
         <div id = "content">
         <div class="hero">
-            <img id="hero" src="./images/hero.jpeg" alt="Cedar Hills Image">
+            <picture class = "image">
+                <source media="(max-width: 800px)" srcset="./images/small.jpeg" />
+                <source media="(max-width: 1130px)" srcset="./images/medium.jpeg" />
+                <img id="hero" src="./images/large.jpeg" alt="Hero Image" />
+              </picture>
             <h1 id="hero-title">Welcome to Cedar Hills</h1>
             <div id="join-us"><h2>Join The Chamber!</h2></div>
         </div>
