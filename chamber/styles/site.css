@@ -118,6 +118,14 @@ header {
     box-shadow: 1px 1px 10px black;
 }
 
+#weathericon {
+    width: 30%;
+}
+
+#park, #meeting {
+    width: 100%; 
+}
+
 nav ul {
     display: flex; 
     flex-direction: column; 
@@ -333,15 +341,12 @@ nav a {
         display: grid; 
         grid-row: 3; 
         margin: 0.4rem; 
-        width: 160%; 
     }
     .spotlight1 {
         grid-row: 1;
-        width: 160%; 
     }
     .spotlight2 {
         grid-row: 2; 
-        width: 160%; 
     }
     
 }
