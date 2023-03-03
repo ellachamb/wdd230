@@ -220,6 +220,7 @@ nav a {
         grid-column: 1/4; 
         grid-row: 4; 
         background-color: #647C90;
+        align-items: center;
     }
     #join-banner {
         color: white;
