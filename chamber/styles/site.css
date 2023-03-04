@@ -20,6 +20,77 @@ main div {
 
 }
 
+/* Directory Page Stuff */
+.directory-main{
+    width: 100%;
+}
+
+#directory-selector{
+    width: 100%;
+    text-align: center;
+}
+
+#directory-selector button{
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: 5px;
+    background-color: grey;
+    border: 1px black solid;
+}
+
+#directory-selector button.active{
+    background-color: orangered;
+}
+
+/* Cards view */
+
+.directory-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-items: center;
+}
+
+.directory-cards section{
+    text-align: center;    
+    border: 2px solid grey;    
+    width: 300px;
+    background-color: #d49764;
+    padding: 1rem;
+    margin: .5rem;
+}
+
+.directory-cards .gold-member{
+    box-shadow: inset 1rem 1rem gold;
+}
+
+/* List View */
+
+.directory-list{    
+    display: grid;
+    justify-items: center;   
+    padding: 1rem;    
+}
+
+.directory-list section img{
+    display: none;
+}
+
+.directory-list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    width: 70%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.directory-list section:nth-child(odd) {
+    background-color: paleturquoise;
+}
+
+.directory-list section:nth-child(even) {
+    background-color: azure;
+}
+
 #content {
     display: grid; 
     border: none; 
@@ -61,6 +132,26 @@ header img{
 
 .join {
     display:none; 
+}
+
+#course {
+    max-width: 50%; 
+}
+
+.disimage {
+    width: 100%; 
+    filter: blur(0.0em);
+    transition: filter .5s; 
+}
+
+.disimage img[data-src]{
+    filter: blur(0.3em);
+    width: 300px;
+    height: 400px;
+}
+
+.discover1{
+    text-align: center;
 }
 
 footer {
@@ -263,6 +354,16 @@ nav a {
     .spotlight1, .spotlight2 {
         margin: 0.4rem; 
     }
+
+    .disimage:hover {
+        box-shadow: 0 0 50px #333;
+        opacity: 70%;
+    }
+
+    .discover1 {
+        font-size: 1.3rem;
+    }
+
     #footer {
         display: flex; 
         align-items: center;
@@ -347,6 +448,9 @@ nav a {
     }
     .spotlight2 {
         grid-row: 2; 
+    }
+    .discover1 {
+        font-size: 1.6rem;
     }
     
 }

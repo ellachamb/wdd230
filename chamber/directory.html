@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <script src="./scripts/site.js" defer></script>
     <script src="./scripts/main.js" defer></script>
-    <script src="./scripts/localstorage.js" defer></script>
+    <script src="./scripts/windchill.js" defer></script>
 </head>
 <body>
     <header>
@@ -28,8 +28,8 @@
             </button>
             <ul id = "navbar">
                 <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="./discover.html">Discover</a></li>
-                <li><a href="./directory.html">Directory</a></li>
+                <li><a href="./discover.html">Discover</a></li>
+                <li class="active"><a href="./directory.html">Directory</a></li>
                 <li><a href="./join.html">Join</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
@@ -43,42 +43,13 @@
             <span id = 'current'></span> 
         </div>
     </header>
-    <main>
-    <div class="discover1">
-        <img class="disimage" src="./images/golfcourse.jpeg" data-src="./images/golfcourse.jpeg" alt="Golf Course">
-        <h1>Cedar Hills Golf Club</h1>
-        <p>Come check out our beautiful green lawns below the mountains. Your first round of golf is on us!</p>
-    </div>
-    <div class="discover1">
-        <img class= "disimage" src="./images/hiking.jpeg" data-src="./images/hiking.jpeg" alt="logo">
-        <h1>American Fork Canyon</h1>
-        <p>Only a few minutes drive from Cedar Hills and you'll be surrounded by beuatiful moountains and greenery. Here you can hike, camp, swim, and much more!</p>
-    </div>
-    <div class="discover1">
-        <img class= "disimage" src="./images/venue.jpeg" data-src="./images/venue.jpeg" alt="logo">
-        <h1>The Vista</h1>
-        <p>The Vista is a beautiful venue where you can hold any type of event including weddings, parties, or concerts.</p>
-    </div>
-    <div class="discover1">
-        <img class= "disimage" src="./images/lake.jpeg" data-src="./images/lake.jpeg" alt="logo">
-        <h1>Tibble Fork</h1>
-        <p>Tibble Fork is always available for anyone to swim, canoe, paddleboard, and hike.</p>
-    </div>
-    <div class="discover1">
-        <img class= "disimage" src="./images/park.jpeg" data-src="./images/park.jpeg" alt="logo">
-        <h1>Harvey Park</h1>
-        <p>Filled with Pickleball, basketball, and tennis courts, a splash pad, and a space themed playground, come check it out! Located at 4301 Harvey Blvd</p>
-    </div>
-    <div>
-        <h1>Cedar Hills Data</h1>
-        <h2>Population: 9,975</h2>
-        <h2>Median Age: 24.9</h2>
-        <h2>49.63% Males</h2>
-        <h2>50.37% Females</h2>
-        <h2>Total Households: 2,430</h2>
-    </div>
-    <h1>It has been <span id='days-since-visit'></span> days since your last visit.</h1>
-    </main>
+    <main class="directory-main">
+        <div id='directory-selector'>
+          <button id="directory-grid" class="active">GRID</button>
+          <button id="directory-list">LIST</button></div>
+        <div id='directory-data' class='directory-cards'>
+        </div>
+        </main>
 <footer>
     <div id ="footer">
     <img src="./images/logo.webp" alt="logo">
