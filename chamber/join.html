@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="For WDD 230 Winter 2023 for Ella Chamberlain">
+    <title>Chamber of Commerce Site</title>
+    <link rel="stylesheet" href="./styles/site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="./scripts/site.js" defer></script>
+    <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/localstorage.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="meet-greet">Come join us for the meet and great on Wednesdays at 7pm.</div>
+        <div class="flex">
+        <a href="./index.html"><img src="./images/logo.webp" alt="logo"></a>
+        <div class="title">
+        <h1>Cedar Hills</h1>
+        <h2>Chamber of Commerce</h2>
+        </div>
+        <nav>
+            <button id="ham-menu">
+                <span id ="menu-close">&equiv;</span>
+                <span id = "menu-open">x</span>
+            </button>
+            <ul id = "navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./discover.html">Discover</a></li>
+                <li><a href="./directory.html">Directory</a></li>
+                <li class="active"><a href="./join.html">Join</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="social">
+        <a href="https://www.instagram.com/"><img id="facebook" src="./images/facebook.png" alt="logo"></a>
+        <a href="https://twitter.com/"><img id = "twitter" src="./images/twitter.png" alt="logo"></a>
+        </div>
+        </div>
+        <div id="date">
+            <span id = 'current'></span> 
+        </div>
+    </header>
+    <main>
+    <div class="discover1">
+        <img class="disimage" src="./images/golfcourse.jpeg" data-src="./images/golfcourse.jpeg" alt="Golf Course">
+        <h1>Cedar Hills Golf Club</h1>
+        <p>Come check out our beautiful green lawns below the mountains. Your first round of golf is on us!</p>
+    </div>
+    <div class="discover1">
+        <img class= "disimage" src="./images/hiking.jpeg" data-src="./images/hiking.jpeg" alt="logo">
+        <h1>American Fork Canyon</h1>
+        <p>Only a few minutes drive from Cedar Hills and you'll be surrounded by beuatiful moountains and greenery. Here you can hike, camp, swim, and much more!</p>
+    </div>
+    <div class="discover1">
+        <img class= "disimage" src="./images/venue.jpeg" data-src="./images/venue.jpeg" alt="logo">
+        <h1>The Vista</h1>
+        <p>The Vista is a beautiful venue where you can hold any type of event including weddings, parties, or concerts.</p>
+    </div>
+    <div class="discover1">
+        <img class= "disimage" src="./images/lake.jpeg" data-src="./images/lake.jpeg" alt="logo">
+        <h1>Tibble Fork</h1>
+        <p>Tibble Fork is always available for anyone to swim, canoe, paddleboard, and hike.</p>
+    </div>
+    <div class="discover1">
+        <img class= "disimage" src="./images/park.jpeg" data-src="./images/park.jpeg" alt="logo">
+        <h1>Harvey Park</h1>
+        <p>Filled with Pickleball, basketball, and tennis courts, a splash pad, and a space themed playground, come check it out! Located at 4301 Harvey Blvd</p>
+    </div>
+    <div>
+        <h1>Cedar Hills Data</h1>
+        <h2>Population: 9,975</h2>
+        <h2>Median Age: 24.9</h2>
+        <h2>49.63% Males</h2>
+        <h2>50.37% Females</h2>
+        <h2>Total Households: 2,430</h2>
+    </div>
+    <h1>It has been <span id='days-since-visit'></span> days since your last visit.</h1>
+    </main>
+<footer>
+    <div id ="footer">
+    <img src="./images/logo.webp" alt="logo">
+    <div>
+    <h3>Cedar Hills Chamber of Commerce</h3>
+    <p>145 Block Bank Road</p>
+    </div>
+    <div>
+    <p>Cedar Hills, UT 84062</p>
+    <p>info@cedarhills.org</p>
+    <p>801-205-4985</p>
+    <a href="https://goo.gl/maps/wDt6jbPVPSeFhCYB9" target="_blank">Location</a>
+    </div>
+    </div>
+    <div>
+    <hr>
+    <p>&copy; <span id = 'currentYear'></span> | Ella Chamberlain | Rexburg, ID</p>
+    <p>Last Updated: <span id='lastModified'></span></p>
+    </div>
+</footer>
+</body>
+</html>
