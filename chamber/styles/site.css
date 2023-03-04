@@ -15,9 +15,32 @@ main {
 }
 
 main div {
-    border: 1px solid black; 
+    border: 1px solid rgb(196, 193, 193); 
     padding: 1rem; 
 
+}
+
+input, label {
+    display: flex;
+    flex-direction: column;
+}
+
+#area {
+    display: flex; 
+    padding: 1rem; 
+}
+
+#membership {
+    width: 50%; 
+    margin-left: 1rem; 
+}
+
+#submit {
+    padding: 0.7rem; 
+}
+
+#form {
+    width: 50%; 
 }
 
 /* Directory Page Stuff */

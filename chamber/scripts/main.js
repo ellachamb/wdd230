@@ -3,6 +3,9 @@ if (messagedate.getDay()==1 || messagedate.getDay()==2) {
     document.querySelector("#meet-greet").classList.add('active'); 
 }
 
+const now = new Date(); 
+document.querySelector("#time").textContent = now; 
+
 // Gather the images to load
 let imagesToLoad = document.querySelectorAll("img[data-src]");
 

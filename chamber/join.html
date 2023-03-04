@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <script src="./scripts/site.js" defer></script>
     <script src="./scripts/main.js" defer></script>
-    <script src="./scripts/localstorage.js" defer></script>
 </head>
 <body>
     <header>
@@ -40,44 +39,87 @@
         </div>
         </div>
         <div id="date">
-            <span id = 'current'></span> 
+            <div id="date">
+                <span id = 'current'></span> 
+            </div>
         </div>
     </header>
     <main>
-    <div class="discover1">
-        <img class="disimage" src="./images/golfcourse.jpeg" data-src="./images/golfcourse.jpeg" alt="Golf Course">
-        <h1>Cedar Hills Golf Club</h1>
-        <p>Come check out our beautiful green lawns below the mountains. Your first round of golf is on us!</p>
+        <div id="area">
+        <div id="form">
+        <form method="GET" action="thankyou.html" >
+        <p>
+            <label for="firstname">First Name*</label>
+            <input type="text" name="firstname" required>
+        </p>
+        <p>
+            <label for="lastname">Last Name*</label>
+            <input type="text" name="lastname" required>
+        </p>
+        <p>
+            <label for="title">Title</label>
+            <input type="text" name="title" minlength="7">
+        </p>
+        <p>
+            <label for="email">Email*</label>
+            <input type="email" name="email" required placeholder="example@email.com">
+        </p>
+        <p>
+            <label for="cellphone">Cell Phone*</label>
+            <input type="tel" name="cellphone" required>
+        </p>
+        <p>
+            <label for="businessname">Business Name*</label>
+            <input type="text" name="businessname" required>
+        </p>
+        <p>
+            <label for="select">Select Membership Level</label>
+            <select name="select">
+                <option value="">--Please choose an option--</option>
+                <option value="np">Non-Profit</option>
+                <option value="bronze">Bronze</option>
+                <option value="silver">Silver</option>
+                <option value="gold">Gold</option>
+            </select>
+        </p>
+        <p>
+            <label for="description">Business Description</label>
+            <textarea name="description" rows="5" cols="33"></textarea>
+        </p>
+        <input type="hidden" name="time" id="time" value=""/>
+        <input type="submit" id="submit" value="Join the Chamber">
+        </form>
+        </div>
+        <div id="membership">
+            <h2>Membership Levels Benefits</h2>
+            <h3>NP Membership</h3>
+            <ul>
+                <li>For non profit organizations and there is no fee</li>
+            </ul>
+            <h3>Bronze Membership</h3>
+            <ul>
+                <li>15% discount on events</li>
+                <li>10% discount on advertising</li>
+                <li>Fee of $50/month</li>
+            </ul>
+            <h3>Silver Membership</h3>
+            <ul>
+                <li>25% discount on events</li>
+                <li>15% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>Fee of $100/month</li>
+            </ul>
+            <h3>Gold Membership</h3>
+            <ul>
+                <li>50% discount on events</li>
+                <li>50% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>5 free featured ads per year</li>
+                <li>1 free training per quarter</li>
+                <li>Free of $250/month</li>
+            </ul>
+        </div>
     </div>
-    <div class="discover1">
-        <img class= "disimage" src="./images/hiking.jpeg" data-src="./images/hiking.jpeg" alt="logo">
-        <h1>American Fork Canyon</h1>
-        <p>Only a few minutes drive from Cedar Hills and you'll be surrounded by beuatiful moountains and greenery. Here you can hike, camp, swim, and much more!</p>
-    </div>
-    <div class="discover1">
-        <img class= "disimage" src="./images/venue.jpeg" data-src="./images/venue.jpeg" alt="logo">
-        <h1>The Vista</h1>
-        <p>The Vista is a beautiful venue where you can hold any type of event including weddings, parties, or concerts.</p>
-    </div>
-    <div class="discover1">
-        <img class= "disimage" src="./images/lake.jpeg" data-src="./images/lake.jpeg" alt="logo">
-        <h1>Tibble Fork</h1>
-        <p>Tibble Fork is always available for anyone to swim, canoe, paddleboard, and hike.</p>
-    </div>
-    <div class="discover1">
-        <img class= "disimage" src="./images/park.jpeg" data-src="./images/park.jpeg" alt="logo">
-        <h1>Harvey Park</h1>
-        <p>Filled with Pickleball, basketball, and tennis courts, a splash pad, and a space themed playground, come check it out! Located at 4301 Harvey Blvd</p>
-    </div>
-    <div>
-        <h1>Cedar Hills Data</h1>
-        <h2>Population: 9,975</h2>
-        <h2>Median Age: 24.9</h2>
-        <h2>49.63% Males</h2>
-        <h2>50.37% Females</h2>
-        <h2>Total Households: 2,430</h2>
-    </div>
-    <h1>It has been <span id='days-since-visit'></span> days since your last visit.</h1>
     </main>
 <footer>
     <div id ="footer">
