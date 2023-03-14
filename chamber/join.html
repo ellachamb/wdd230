@@ -38,43 +38,41 @@
         <a href="https://twitter.com/"><img id = "twitter" src="./images/twitter.png" alt="logo"></a>
         </div>
         </div>
-        <div id="date">
             <div id="date">
                 <span id = 'current'></span> 
             </div>
-        </div>
     </header>
     <main>
         <div id="area">
         <div id="form">
         <form method="GET" action="thankyou.html" >
-        <p id="firstname">
+        <p>
             <label for="firstname">First Name*</label>
-            <input type="text" name="firstname" required>
+            <input type="text" id="firstname" name="firstname" required>
         </p>
-        <p id="lastname">
+        <p>
             <label for="lastname">Last Name*</label>
-            <input type="text" name="lastname" required>
+            <input type="text" id="lastname" name="lastname" required>
         </p>
-        <p id="title">
+        <p>
             <label for="title">Title</label>
-            <input type="text" name="title" minlength="7">
+            <input type="text" id="title" name="title" minlength="7">
         </p>
-        <p id="email">
+        <p>
             <label for="email">Email*</label>
-            <input type="email" name="email" required placeholder="example@email.com">
+            <input type="email" id="email" name="email" required placeholder="example@email.com">
         </p>
-        <p id="cellphone">
+        <p>
             <label for="cellphone">Cell Phone*</label>
-            <input type="tel" name="cellphone" required>
+            <input type="tel" id="cellphone" name="cellphone" required>
         </p>
-        <p id="businessname">
+        <p>
             <label for="businessname">Business Name*</label>
-            <input type="text" name="businessname" required>
+            <input type="text" id="businessname" name="businessname" required>
         </p>
-        <p id="select">
+        <p>
             <label for="select">Select Membership Level</label>
-            <select name="select">
+            <select id="select" name="select">
                 <option value="">--Please choose an option--</option>
                 <option value="np">Non-Profit</option>
                 <option value="bronze">Bronze</option>
@@ -82,11 +80,11 @@
                 <option value="gold">Gold</option>
             </select>
         </p>
-        <p id="description">
+        <p>
             <label for="description">Business Description</label>
-            <textarea name="description" rows="5" cols="33"></textarea>
+            <textarea id="description" name="description" rows="5" cols="33"></textarea>
         </p>
-        <input type="hidden" name="time" id="time" value=""/>
+        <input type="hidden" name="time" id="time" value="">
         <input type="submit" id="submit" value="Join the Chamber">
         </form>
         </div>
