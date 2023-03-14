@@ -26,21 +26,11 @@ input, label {
 }
 
 #area {
-    display: flex; 
     padding: 1rem; 
-}
-
-#membership {
-    width: 50%; 
-    margin-left: 1rem; 
 }
 
 #submit {
     padding: 0.7rem; 
-}
-
-#form {
-    width: 50%; 
 }
 
 /* Directory Page Stuff */
@@ -396,6 +386,18 @@ nav a {
     footer img {
         height: 140px;
         width: 200px; 
+    }
+
+    #area {
+        display: flex; 
+    }
+
+    #form {
+        width: 50%; 
+    }
+
+    #membership {
+        width: 50%; 
     }
 } 
 
