@@ -1,0 +1,67 @@
+{
+    "businesss": [
+        {
+            "imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.unitedway.org%2Fpartners%2Fbank-of-america&psig=AOvVaw2fnMg8aR_1lD4VjvsoqZKW&ust=1679418962213000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJC1saeB6_0CFQAAAAAdAAAAABAE",
+            "name": "Bank of America",
+            "streetAddress": "4800 West Cedar Hills Drive",
+            "cityStateZip": "Cedar Hills UT 84062",
+            "websiteURL": "https://promotions.bankofamerica.com/consumer/multiproduct?cm_mmc=ENT-Consumer-_-Google-PS-_-bank_of_america-_-Brand_CoreBrand&gclid=CjwKCAjwiOCgBhAgEiwAjv5whLmyJWI9wsk2_77LwRaGsRjYC7zn_hsFpGssl24Pq1pvUGbY9QhX_RoCtSMQAvD_BwE&gclsrc=aw.ds"
+        }, 
+        {
+            "imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.prnewswire.com%2Fnews-releases%2Fnations-number-one-mexican-restaurant-cafe-rio-unveils-new-craft-culinary-institute-and-headquarters-in-salt-lake-city-221304321.html&psig=AOvVaw1x-F5qnHmXlz1Qf36SnKBS&ust=1679419757267000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCNDR2qKE6_0CFQAAAAAdAAAAABAE", 
+            "name": "Cafe Rio", 
+            "streetAddress": "9920 North 4800 West", 
+            "cityStateZip": "Cedar Hills UT 84062",
+            "websiteURL": "https://www.caferio.com/"
+        },
+        {
+            "imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsmilecedarhills.com%2F&psig=AOvVaw3GEroVDRx4dzF9E0GD3ytt&ust=1679419738625000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCKCU5ZmE6_0CFQAAAAAdAAAAABAE", 
+            "name": "Cedar Hills Family Dentistry", 
+            "streetAddress": "4565 West Cedar Hills Drive", 
+            "cityStateZip": "Cedar Hills UT 84062",
+            "websiteURL": "https://www.cedarhillsfamilydentistry.com"
+        },
+        {
+            "imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peoria.org%2Flisting%2Fdollar-tree%2F1485%2F&psig=AOvVaw3af-XB2rQeU02jN7V4v3JE&ust=1679419714117000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPjr_o2E6_0CFQAAAAAdAAAAABAE",
+            "name": "Dollar Tree", 
+            "streetAddress": "4722 West 10040 North", 
+            "cityStateZip": "Cedar Hills UT 84062",
+            "websiteURL": "https://www.dollartree.com"
+        },
+        {
+            "imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.greatclips.com%2F&psig=AOvVaw33_jgpjZlOUQ0qk3X3RqA8&ust=1679419683056000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPiApf-D6_0CFQAAAAAdAAAAABAE", 
+            "name": "Great Clips", 
+            "streetAddress": "4723 West Cedar Hills Drive", 
+            "cityStateZip": "Cedar Hills UT 84062",
+            "websiteURL": "https://www.greatclips.com/"
+        },
+        {
+            "imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fcategory%2Fgas-station%2FHarts-Gas-Food-96005435059%2F&psig=AOvVaw3saXsaeJpsfG_BjF36yDV_&ust=1679419776898000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCICToqyE6_0CFQAAAAAdAAAAABAE", 
+            "name": "Harts Food and Gas", 
+            "streetAddress": "10022 North 4800 West", 
+            "cityStateZip": "Cedar Hills UT 84062",
+            "websiteURL": "https://www.hartsgasandfood.com"
+        },
+        {
+            "imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMcDonald%2527s&psig=AOvVaw2o0anrZfEOx5spugZ1QGWO&ust=1679419793858000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJDf4bOE6_0CFQAAAAAdAAAAABAE", 
+            "name": "McDonalds", 
+            "streetAddress": "10180 North 4800 West", 
+            "cityStateZip": "Cedar Hills UT 84062",
+            "websiteURL": "https://www.mcdonalds.com/us/en-us.html"
+        },
+        {
+            "imageURL": "https://play.google.com/store/apps/details?id=com.washify.ShinyShellCarWash", 
+            "name": "Shiny Shell", 
+            "streetAddress": "10002 North 4800 West", 
+            "cityStateZip": "Cedar Hills UT 84062",
+            "websiteURL": "https://www.shinyshell.com/"
+        },
+        {
+            "imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcorporate.walmart.com%2Fphotos%2Fwalmart-logo-tagline&psig=AOvVaw1-gOG9tBjPCBCCqUmWld42&ust=1679419833429000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJCN7caE6_0CFQAAAAAdAAAAABAE", 
+            "name": "Walmart", 
+            "streetAddress": "4689 West Cedar Hills Drive", 
+            "cityStateZip": "Cedar Hills UT 84062",
+            "websiteURL": "https://www.walmart.com"
+        }
+    ]
+}
