@@ -102,7 +102,9 @@ a {
     position: absolute; 
     color: rgb(244, 243, 234); 
     bottom: 40px; 
-    background-color: #558564;
+    right: 30px; 
+    border-radius: 50px;
+    background-color: #440d0f;
     padding: 1rem;
     width: 30%; 
     text-align: center; 
@@ -126,7 +128,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 868px) {
+@media only screen and (max-width: 1008px) {
     .nav-menu {
         position: fixed;
         left: -100%;
