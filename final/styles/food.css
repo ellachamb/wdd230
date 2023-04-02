@@ -245,9 +245,9 @@ footer {
     }
 }
 
-@media only screen and (max-width: 600px) {
-    #heromessage, #order, #fruitq, #explain {
-        font-size: .4rem;
+@media only screen and (max-width: 800px) {
+    #heromessage, #order, #fruitq, #explain, .freshbutton {
+        font-size: .6rem;
     }
 
     #location {
