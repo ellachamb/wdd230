@@ -33,7 +33,7 @@ a {
 
 #mainlogo {
     padding: .7rem;
-    border: 1px dotted #101010;
+    border: 1px dotted rgb(137, 137, 137);
     border-radius: 10px;
 }
 
@@ -104,13 +104,55 @@ a {
     bottom: 40px; 
     right: 30px; 
     border-radius: 50px;
-    background-color: #440d0f;
+    background-color: #647a6b;
     padding: 1rem;
     width: 30%; 
     text-align: center; 
     font-family: "Libre Baskerville", sans-serif;
     box-shadow: .25rem .25rem .75rem #333;
 }
+
+#freshindex {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; 
+    margin: 1rem;
+    background-color: rgb(244, 243, 234);
+}
+
+#fruitsection {
+    position: relative; 
+    width: 100%; 
+    padding: 1rem; 
+}
+
+#image {
+    width: 80%; 
+}
+
+#fruitq{
+    position: absolute; 
+    top: 50px; 
+    right: 0px; 
+    width: 40%; 
+    margin: 0px; 
+    background-color: rgb(116, 58, 77);
+    color: white; 
+    font-family: "Mukta", sans-serif;
+    padding: 1rem;
+}
+
+
+
+#explain {
+    display: grid;
+    color: rgb(244, 243, 234); 
+    background-color: #494949;
+    padding: 1rem;
+    font-family: "Mukta", sans-serif; 
+    margin: .5rem;
+}
+
+
 #cali {
     position: relative; 
 }
@@ -169,7 +211,7 @@ footer {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-    #heromessage, #order {
+    #heromessage, #order, #explain, #fruitq {
         font-size: .7rem;
     }
 }
