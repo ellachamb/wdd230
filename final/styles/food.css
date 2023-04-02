@@ -257,10 +257,11 @@ footer {
 
     #location {
         font-size: .6rem;
+        padding: .7rem;
     }
 
     #fruitq {
-        width: 60%; 
+        width: 75%; 
     }
     
 }
