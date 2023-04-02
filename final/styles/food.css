@@ -180,6 +180,18 @@ footer {
 
 }
 
+#location {
+    position: absolute; 
+    top: 10px;
+    background-color: #dad7ce;
+    padding: 2rem;
+    width: 50%;
+    font-family: "Libre Baskerville", sans-serif;
+    box-shadow: .25rem .25rem .55rem #333;
+    font-size: 1.5rem;
+
+}
+
 @media only screen and (max-width: 1200px) {
     .nav-menu {
         position: fixed;
@@ -227,11 +239,19 @@ footer {
     #freshindex {
         display: block;
     }
+
+    #location {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     #heromessage, #order, #fruitq, #explain {
         font-size: .4rem;
+    }
+
+    #location {
+        font-size: .6rem;
     }
 }
 
