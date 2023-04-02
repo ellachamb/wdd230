@@ -165,13 +165,22 @@ a {
     margin: .5rem; 
 }
 
-#freshbutton {
+.freshbutton {
     background-color: #dad7ce;
     text-align: center;
     padding: .002rem; 
-    color: black; 
+    color: #000000;
     margin: .4rem; 
     border-radius: 30px;
+}
+
+.freshbutton a:hover {
+    color: #558564;
+}
+
+.freshbutton a {
+    text-decoration: none;
+    color: #000000;
 }
 
 #cali {
@@ -237,7 +246,7 @@ footer {
     }
 }
 @media only screen and (max-width: 900px) {
-    #heromessage, #order, #explain, #fruitq, #count {
+    #heromessage, #order {
     font-size: .4rem;
     } 
     #hidden {
