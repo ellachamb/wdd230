@@ -140,6 +140,7 @@ a {
     color: white; 
     font-family: "Mukta", sans-serif;
     padding: 1rem;
+    box-shadow: -.25rem -.25rem .75rem #333;
 }
 
 #count {
@@ -152,7 +153,7 @@ a {
     background-color: #494949;
     padding: 1rem;
     font-family: "Mukta", sans-serif; 
-    margin: .5rem;
+    margin: .5rem; 
 }
 
 #hidden {
@@ -161,7 +162,16 @@ a {
     background-color: #494949;
     padding: 1rem;
     font-family: "Mukta", sans-serif; 
-    margin: .5rem;
+    margin: .5rem; 
+}
+
+#freshbutton {
+    background-color: #dad7ce;
+    text-align: center;
+    padding: .002rem; 
+    color: black; 
+    margin: .4rem; 
+    border-radius: 30px;
 }
 
 #cali {
@@ -181,7 +191,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 1008px) {
+@media only screen and (max-width: 1208px) {
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -222,11 +232,11 @@ footer {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-    #heromessage, #order, #explain, #fruitq, #count {
+    #heromessage, #order, #explain, #fruitq, #count, #hidden {
         font-size: .7rem;
     }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     #heromessage, #order, #explain, #fruitq, #count {
     font-size: .4rem;
     } 
