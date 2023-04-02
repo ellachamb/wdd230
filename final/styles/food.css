@@ -83,30 +83,17 @@ a {
 }
 
 #hero img {
-    width: 100%;
+    width: 100%; 
 }
 
 #heromessage {
     position: absolute; 
     color: rgb(244, 243, 234); 
-    top: 30px; 
+    top: 30%; 
     background-color: #795657;
     padding: 1rem;
     opacity: 90%;
     width: 100%;
-    text-align: center; 
-    font-family: "Libre Baskerville", sans-serif;
-    box-shadow: .25rem .25rem .75rem #333;
-}
-#order {
-    position: absolute; 
-    color: rgb(244, 243, 234); 
-    bottom: 40px; 
-    right: 30px; 
-    border-radius: 50px;
-    background-color: #647a6b;
-    padding: 1rem;
-    width: 30%; 
     text-align: center; 
     font-family: "Libre Baskerville", sans-serif;
     box-shadow: .25rem .25rem .75rem #333;
@@ -180,6 +167,7 @@ a {
 }
 #cali img {
     width: 100%; 
+    opacity: 80%;
 }
 
 footer {
@@ -242,6 +230,9 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
+    #heromessage, #order, #fruitq, #explain {
+        font-size: .4rem;
+    }
 }
 
 
