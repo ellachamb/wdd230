@@ -35,23 +35,33 @@
         </nav>
 </header>
 <main>
-    <div id="area">
-        <div id="form">
+    <div class="hero">
+        <img src="./images/fruity drink.webp" loading="lazy" alt="Fruit Drink" width="1000"> 
+        <h3 id=form>Want to make your very own customized fruit drink? All you need to do is fill out your form below. </h3>
+        <div class="form">
         <form method="GET" action="order.html" >
         <p>
             <label for="firstname">First Name*</label>
+        </p>
+        <p>
             <input type="text" id="firstname" name="firstname" required>
         </p>
         <p>
             <label for="email">Email*</label>
+        </p>
+        <p>
             <input type="email" id="email" name="email" required placeholder="example@email.com">
         </p>
         <p>
             <label for="cellphone">Phone Number*</label>
+        </p>
+        <p>
             <input type="tel" id="cellphone" name="cellphone" required>
         </p>
         <p>
             <label for="select">Select Three Fruits for Your Smoothie</label>
+        </p>
+        <p>
             <select id="select" name="select">
                 <option value="">--Please choose an option--</option>
                 <option value="np">Non-Profit</option>
@@ -76,11 +86,15 @@
         </p>
         <p>
             <label for="description">Special Instructions</label>
+        </p>
+        <p>
             <textarea id="description" name="description" rows="5" cols="33"></textarea>
         </p>
         <input type="hidden" name="time" id="time" value="">
-        <input type="submit" id="submit" value="Join the Chamber">
+        <input type="submit" id="submit" value="Submit Your Order">
         </form>
+    </div>
+        
 </main>
 <footer>
     <p>&copy; <span id = 'currentYear'></span> | Last Updated: <span id='lastModified'></span></p>
