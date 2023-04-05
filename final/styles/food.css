@@ -223,12 +223,12 @@ color: rgb(204, 204, 204);
     color: black; 
 }
 
-#facebook, #twitter {
+#facebook, #twitter, #instagram {
     width: 10%; 
     margin: 1rem; 
 }
 
-#facebook:hover, #twitter:hover {
+#facebook:hover, #twitter:hover, #instagram:hover {
     width: 12%; 
 }
 
