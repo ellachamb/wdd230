@@ -10,7 +10,6 @@
     margin:0 auto;
 }
 
-
 li {
     list-style: none;
 }
@@ -247,11 +246,16 @@ footer {
     #location {
         font-size: 1rem;
     }
+
+    #form {
+        padding: 2fr; 
+    }
 }
 
 @media only screen and (max-width: 800px) {
     #heromessage, #order, #fruitq, #explain, .freshbutton {
         font-size: .6rem;
+        padding: .9rem;
     }
 
     #location {

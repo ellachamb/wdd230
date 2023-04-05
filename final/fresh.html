@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/order.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -23,9 +24,6 @@
                     <a href="./fresh.html" class="nav-link">Fresh</a>
                 </li>
                 <li class="nav-item">
-                    <a href="./order.html" class="nav-link">Order</a>
-                </li>
-                <li class="nav-item">
                     <a href="./aboutus.html" class="nav-link">About Us</a>
                 </li>
             </ul>
@@ -36,6 +34,54 @@
             </div>
         </nav>
 </header>
+<main>
+    <div id="area">
+        <div id="form">
+        <form method="GET" action="order.html" >
+        <p>
+            <label for="firstname">First Name*</label>
+            <input type="text" id="firstname" name="firstname" required>
+        </p>
+        <p>
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required placeholder="example@email.com">
+        </p>
+        <p>
+            <label for="cellphone">Phone Number*</label>
+            <input type="tel" id="cellphone" name="cellphone" required>
+        </p>
+        <p>
+            <label for="select">Select Three Fruits for Your Smoothie</label>
+            <select id="select" name="select">
+                <option value="">--Please choose an option--</option>
+                <option value="np">Non-Profit</option>
+                <option value="bronze">Bronze</option>
+                <option value="silver">Silver</option>
+                <option value="gold">Gold</option>
+            </select>
+            <select id="select" name="select">
+                <option value="">--Please choose an option--</option>
+                <option value="np">Non-Profit</option>
+                <option value="bronze">Bronze</option>
+                <option value="silver">Silver</option>
+                <option value="gold">Gold</option>
+            </select>
+            <select id="select" name="select">
+                <option value="">--Please choose an option--</option>
+                <option value="np">Non-Profit</option>
+                <option value="bronze">Bronze</option>
+                <option value="silver">Silver</option>
+                <option value="gold">Gold</option>
+            </select>
+        </p>
+        <p>
+            <label for="description">Special Instructions</label>
+            <textarea id="description" name="description" rows="5" cols="33"></textarea>
+        </p>
+        <input type="hidden" name="time" id="time" value="">
+        <input type="submit" id="submit" value="Join the Chamber">
+        </form>
+</main>
 <footer>
     <p>&copy; <span id = 'currentYear'></span> | Last Updated: <span id='lastModified'></span></p>
 </footer>
