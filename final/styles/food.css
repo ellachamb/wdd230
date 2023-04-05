@@ -375,6 +375,7 @@ color: rgb(204, 204, 204);
         padding: .5rem;
         line-height: .03rem;
         top: 70px; 
+        min-width: 80%; 
     }
     
 }
