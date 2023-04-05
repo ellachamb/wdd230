@@ -206,8 +206,17 @@ footer {
     color: white; 
 }
 
+#contactinfo a:hover {
+color: rgb(204, 204, 204); 
+}
+
 #aboutbutton {
     padding: 1rem; 
+    font-family: "Mukta", sans-serif;
+}
+
+#aboutbutton a:hover {
+    color: #558564; 
 }
 
 #aboutbutton a {
@@ -219,9 +228,23 @@ footer {
     margin: 1rem; 
 }
 
-#abouttitle {
+#facebook:hover, #twitter:hover {
+    width: 12%; 
+}
+
+.about{
     position: absolute; 
     top: 40px; 
+    color: #795657; 
+    font-family: "Libre Baskerville", sans-serif;
+    background-color: rgb(244, 243, 234);
+    padding: 1.5rem; 
+    margin: 2rem; 
+}
+
+.aboutexplain {
+    position: absolute; 
+    top: 110px; 
     color: #795657; 
     font-family: "Libre Baskerville", sans-serif;
     background-color: rgb(244, 243, 234);
@@ -263,6 +286,11 @@ footer {
     border: none;
     color: white; 
     background-color: rgb(89, 57, 63);
+}
+
+#count {
+    font-family: "Libre Baskerville", sans-serif;
+    margin: 1rem; 
 }
 
 
@@ -329,7 +357,7 @@ footer {
         padding: .9rem;
     }
 
-    #location, #abouttitle {
+    #location {
         font-size: .7rem;
         padding: .7rem;
     }
