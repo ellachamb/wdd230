@@ -13,5 +13,4 @@ document.querySelector("#currentYear").textContent = today.getFullYear();
 
 document.querySelector("#lastModified").textContent = document.lastModified; 
 
-const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format( new Date() );
-document.querySelector("#current").textContent = fulldate; 
+document.getElementById("visits").innerHTML= localStorage.getItem("submissions"); 

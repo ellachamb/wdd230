@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./scripts/main.js" defer></script>
     <script src="./scripts/order.js" defer></script>
+    <script src="./scripts/local.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -59,24 +60,24 @@
             <input type="tel" id="cellphone" name="cellphone" required>
         </p>
         <p>
-            <label for="select">Select Three Fruits for Your Smoothie</label>
+            <label for="select">Select Three Fruits for Your Smoothie*</label>
         </p>
         <p>
-            <select id="select" name="select">
+            <select id="select1" name="select1" required>
                 <option value="">--Please choose an option--</option>
                 <option value="np">Non-Profit</option>
                 <option value="bronze">Bronze</option>
                 <option value="silver">Silver</option>
                 <option value="gold">Gold</option>
             </select>
-            <select id="select" name="select">
+            <select id="select2" name="select2" required>
                 <option value="">--Please choose an option--</option>
                 <option value="np">Non-Profit</option>
                 <option value="bronze">Bronze</option>
                 <option value="silver">Silver</option>
                 <option value="gold">Gold</option>
             </select>
-            <select id="select" name="select">
+            <select id="select3" name="select3" required>
                 <option value="">--Please choose an option--</option>
                 <option value="np">Non-Profit</option>
                 <option value="bronze">Bronze</option>
@@ -91,7 +92,7 @@
             <textarea id="description" name="description" rows="5" cols="33"></textarea>
         </p>
         <input type="hidden" name="time" id="time" value="">
-        <input type="submit" id="submit" value="Submit Your Order">
+        <button><input type="submit" id="submit" value="Submit Your Order"></button>
         </form>
     </div>
         

@@ -293,6 +293,17 @@ color: rgb(204, 204, 204);
     margin: 1rem; 
 }
 
+#thankyou {
+    font-family: "Mukta", sans-serif;
+    margin: 2rem; 
+
+}
+
+#thankyou h1 {
+    font-family: "Libre Baskerville", sans-serif;
+    text-align: center;
+}
+
 
 @media only screen and (max-width: 1200px) {
     .nav-menu {

@@ -12,6 +12,7 @@
     <script src="./scripts/main.js" defer></script>
     <script src="./scripts/thankyou.js" defer></script>
     <script src="./scripts/order.js" defer></script>
+    <script src="./scripts/local.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -36,12 +37,16 @@
         </nav>
 </header>
 <main>
-    <section>
+    <section id="thankyou">
         <h1>Thank you for your order!</h1>
         <h2>Order Confirmation For <span id="firstname"></span></h2>
+        <h3>Email: <span id="email"></span></h3>
+        <h3>Phone Number: <span id="cellphone"></span></h3>
+        <h3>Fruit Choices: <span id="select1"></span>, <span id="select2"></span>, <span id="select3"></span></h3>
+        <h3>Special Instructions: <span id="description"></span></h3>
         <h3>Order Date: <span id="time"></span></h3>
         <h3></h3>
-        <h3>Nutritional Information: </h3>
+        <h3>Nutritional Information</h3>
         <p>Carbohydrates: </p>
         <p>Protein: </p>
         <p>Sugar: </p>
