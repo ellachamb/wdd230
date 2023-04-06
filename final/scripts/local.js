@@ -1,8 +1,8 @@
-const submitDisplay = document.getElementById("visits"); 
-
 const button = document.getElementById("submit"); 
 
 let submissions = 0; 
+
+const submitDisplay = document.getElementById("visits"); 
 
 if (localStorage.getItem(submissions)) {
     submissions = parseInt(localStorage.getItem("submissions")); 

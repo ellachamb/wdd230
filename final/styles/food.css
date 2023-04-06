@@ -308,6 +308,17 @@ color: rgb(204, 204, 204);
     max-width: 10%;
 }
 
+#weather {
+    position: absolute; 
+    right: 10px; 
+    bottom: 10px; 
+    background-color: #dad7ce;
+    padding: 1rem;
+    font-family: "Libre Baskerville", sans-serif;
+    box-shadow: -.25rem -.25rem .55rem #333;
+    text-align: center;
+}
+
 
 @media only screen and (max-width: 1200px) {
     .nav-menu {
@@ -367,7 +378,7 @@ color: rgb(204, 204, 204);
 }
 
 @media only screen and (max-width: 800px) {
-    #heromessage, #order, #fruitq, #explain, #contactinfo {
+    #heromessage, #order, #fruitq, #explain, #contactinfo, #weather {
         font-size: .6rem;
         padding: .9rem;
     }
