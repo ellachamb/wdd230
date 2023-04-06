@@ -304,6 +304,10 @@ color: rgb(204, 204, 204);
     text-align: center;
 }
 
+#weather-icon {
+    max-width: 10%;
+}
+
 
 @media only screen and (max-width: 1200px) {
     .nav-menu {

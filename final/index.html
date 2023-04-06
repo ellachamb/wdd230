@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./styles/food.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/weather.js" defer></script>
+
 </head>
 <body>
     <header class="header">
@@ -61,7 +63,19 @@
         <h3>Home to our main market, Carlsbad has beautiful beaches, amazing weather, and a number of fun things to do.</h3>
     </div>
     <div id="weather">
+        <h2>Current Weather in Carlsbad</h2>
+    <h3><span id="current-temp"></span> &deg;F</h3> 
+    <figure>
+      <img src="" alt="weather icon" id="weather-icon" />
+      <h3><figcaption></figcaption></h3>
+    </figure>
+    <h3>Humidity: <span id="humidity"></span>%</h3>
+    </div>
+    <div id="forecast">
         <h2>3 Day Forecast</h2>
+        <h3><span id="dayone"></span></h3>
+        <h3><span id="daytwo"></span></h3>
+        <h3><span id="daythree"></span></h3>
     </div>
 </div>
 <div id="contactinfo">
