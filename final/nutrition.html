@@ -8,10 +8,9 @@
     <title>Bountiful Foods</title>
     <link rel="stylesheet" href="./styles/food.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./scripts/main.js" defer></script>
-    <script src="./scripts/thankyou.js" defer></script>
-    <script src="./scripts/order.js" defer></script>
+    <script src="./scripts/nutrition.js" defer></script>
+
 </head>
 <body>
     <header class="header">
@@ -32,20 +31,17 @@
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
+
             </div>
         </nav>
 </header>
 <main>
-    <section class="thankyou">
-        <h1>Thank you for your order!</h1>
-        <h2>Order Confirmation For <span id="firstname"></span></h2>
-        <h3>Email: <span id="email"></span></h3>
-        <h3>Phone Number: <span id="cellphone"></span></h3>
-        <h3>Fruit Choices: <span id="select1"></span>, <span id="select2"></span>, <span id="select3"></span></h3>
-        <h3>Special Instructions: <span id="description"></span></h3>
-        <h3>Order Date: <span id="time"></span></h3>
-    </section>
-    <div id="infobutton"><a href="./nutrition.html">See Nutritional Info</a></div>
+    <div class="thankyou">
+    <h1>Nutritional Information</h1>
+    <h2>Fruits in your drink: <span id="select1"></span>, <span id="select2"></span>, and <span id="select3"></span></h2>
+    <div class="nutrition"></div>
+    <p id="test"></p>
+</div>
 </main>
 <footer>
     <p>&copy; <span id = 'currentYear'></span> | Last Updated: <span id='lastModified'></span></p>

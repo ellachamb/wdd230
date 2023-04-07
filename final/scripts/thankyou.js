@@ -14,3 +14,11 @@ document.querySelector('#select2').textContent = params.get("select2");
 document.querySelector('#select3').textContent = params.get("select3");
 document.querySelector('#description').textContent = params.get("description");
 document.querySelector('#time').textContent = params.get("time");
+
+let select1 = params.get("select1")
+let select2 = params.get("select2")
+let select3 = params.get("select3")
+
+localStorage.setItem("select1", select1); 
+localStorage.setItem("select2", select2); 
+localStorage.setItem("select3", select3); 

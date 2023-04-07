@@ -1,0 +1,1 @@
+document.getElementById("visits").innerHTML= localStorage.getItem("submissions"); 

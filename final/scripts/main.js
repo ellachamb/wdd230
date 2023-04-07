@@ -13,4 +13,4 @@ document.querySelector("#currentYear").textContent = today.getFullYear();
 
 document.querySelector("#lastModified").textContent = document.lastModified; 
 
-document.getElementById("visits").innerHTML= localStorage.getItem("submissions"); 
+
