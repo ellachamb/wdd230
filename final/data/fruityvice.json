@@ -25,19 +25,6 @@
         "sugar": 3.2
     }
 }, {
-    "genus": "Persea",
-    "name": "Avocado",
-    "id": 84,
-    "family": "Lauraceae",
-    "order": "Laurales",
-    "nutritions": {
-        "carbohydrates": 8.53,
-        "protein": 2,
-        "fat": 14.66,
-        "calories": 160,
-        "sugar": 0.66
-    }
-}, {
     "genus": "Musa",
     "name": "Banana",
     "id": 1,
